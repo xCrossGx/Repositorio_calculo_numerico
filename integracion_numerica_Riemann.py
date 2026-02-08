@@ -1,3 +1,4 @@
+#Estudiante Cristian González C.I: 31.256.662
 import math
 import sympy as sp
 

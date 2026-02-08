@@ -1,3 +1,4 @@
+#Estudiante Cristian González C.I: 31.256.662
 import math
 
 def f(x): #se declara la funcion

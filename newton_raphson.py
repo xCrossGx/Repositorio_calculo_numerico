@@ -1,3 +1,4 @@
+#Estudiante Cristian González C.I: 31.256.662
 import sympy as sp
 
 def newton_raphson(x0, error):
