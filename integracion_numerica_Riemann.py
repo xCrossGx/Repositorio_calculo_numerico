@@ -21,7 +21,7 @@ def riemann(f, a, b, n):
             area += h * f_numerica(lista[icont])
             icont += 1
         resultado_int = sp.integrate(f, (x, a, b)).evalf()
-        errel = sp.Abs(resultado_int - area) / resultado_int
+        errel = sp.Abs((resultado_int - area) / resultado_int)
         print(f"El area total calculada es la siguiente = {area}")
         print(f"El valor real de la integracion es el siguiente = {resultado_int}")
         print(f"Y el error relativo es el siguiente = {errel}")
